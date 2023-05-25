@@ -1,4 +1,4 @@
-# uni-ui
+# uniq-ui
 
 ## Project setup
 ```
