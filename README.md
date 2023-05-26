@@ -1,23 +1,20 @@
 # uniq-ui
 
-## Project setup
+## 安装组件库
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i uniq-ui
 ```
 
-### Compiles and minifies for production
+### 全局导入
 ```
-npm run build
+import UniqUI from 'uniq-ui'
+import 'uniq-ui/dist/uni-ui.css'
+Vue.use(UniqUI)
 ```
 
-### Lints and fixes files
+### 使用
 ```
-npm run lint
+<uni-button type="primary">按钮</uni-button>
 ```
 
 ### Customize configuration
